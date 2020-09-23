@@ -1,0 +1,48 @@
+{
+  "name": "ngx-export-as",
+  "version": "1.4.2",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "html2pdf.js": "^0.9.1",
+    "rxjs": "~6.3.3",
+    "xlsx": "^0.14.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.1.1",
+    "@angular/core": "^8.1.1",
+    "tslib": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnabil/ngx-export-as.git"
+  },
+  "keywords": [
+    "angular",
+    "export",
+    "pdf",
+    "typescript",
+    "ng",
+    "ngx",
+    "xls",
+    "xlsx",
+    "csv"
+  ],
+  "author": "Wassem Nabil <w.nabil@orangestudio.com> (http://arabianlolers.com)",
+  "bugs": {
+    "url": "https://github.com/wnabil/ngx-export-as/issues"
+  },
+  "homepage": "https://github.com/wnabil/ngx-export-as#readme",
+  "main": "bundles/ngx-export-as.umd.js",
+  "module": "fesm5/ngx-export-as.js",
+  "es2015": "fesm2015/ngx-export-as.js",
+  "esm5": "esm5/ngx-export-as.js",
+  "esm2015": "esm2015/ngx-export-as.js",
+  "fesm5": "fesm5/ngx-export-as.js",
+  "fesm2015": "fesm2015/ngx-export-as.js",
+  "typings": "ngx-export-as.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}
